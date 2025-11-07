@@ -8,17 +8,54 @@ The hardware is designed in KiCad and all design files are included in the hardw
 The firmware is a PlatformIO-based project targetting the [TinyS3](https://esp32s3.com/tinys3.html) ESP32 dev board. All source files are included in the firmware directory. The firmware will cycle through various different animations, returning to the configured name/word between each. It has a basic HTTP UX with REST interface to update settings--enable/disable animations, changing brightness, etc. It is simple to customize the firmware to any tube configuration by creating a new one in [tubeConfiguration.h](firmware/tubeConfiguration.h).
 
 ## Work Left
-- a nice case for both pieces of hardware I've built so far for two little persons
-- more animations are always nice
-- general debugging
-- BOM and better docs maybe if interest
+- V2 design with 4 tubes "Bowen" -- in progress
 
 ## Images
 
+#### PCB Layout and Bare PCBs
 <img width="1409" alt="circuitboard" src="https://github.com/nonik0/Stemmett-Nixie-Device/assets/17152317/f3ae704e-cc7b-4b4a-8c89-467c230d003f">
 <img width="1062" alt="photoof2devices" src="https://github.com/nonik0/Stemmett-Nixie-Device/assets/17152317/243bab7f-05ea-454b-98be-dd6fbc3197f3">
 
+#### Wood Block to Enclosure
+<p align="center" width="100%">
+  <img src="images/marking_holes_front.jpg" width="40%" />
+</p>
+<p align="center" width="100%">
+  <img src="images/drilled_holes_front.jpg" width="40%" />
+  <img src="images/hollowing_out_back.jpg" width="40%" />
+</p>
+<p align="center" width="100%">
+  <img src="images/finish_prep_front.jpg" width="40%" />
+  <img src="images/finish_prep_back.jpg" width="40%" />
+</p>
+
+#### Fitting and Finishing
+
+<p align="center" width="100%">
+  <img src="images/initial_fit_front.jpg" width="40%" />
+  <img src="images/initial_fit_back.jpg" width="40%" />
+</p>
+<p align="center" width="100%">
+  <img src="images/finished_front.jpg" width="40%" />
+  <img src="images/finished_back.jpg" width="40%" />
+</p>
+
+#### Finished Enclosure
+
+<p align="center" width="100%">
+  <img src="images/front.jpg" width="40%" />
+  <img src="images/front_2.jpg" width="40%" />
+</p>
+
+#### Alternate Enclosure
+<p align="center" width="100%">
+  <img src="images/case_2_front.jpg" width="40%" />
+</p>
+
 ## Animations
+
+<a href="images/glitch_anim.mp4">Glitch Animation</a>
+<a href="images/random_scan_anim.mp4">Random Scan Animation</a>
 
 <img width="400" src="https://github.com/nonik0/Stemmett-Nixie-Device/assets/17152317/ccc5fb62-b015-490d-8923-8d73e164e0a2" />
 <img width="400" src="https://github.com/nonik0/Stemmett-Nixie-Device/assets/17152317/f9963695-3fc3-45b0-a612-ad508b737c26" />
