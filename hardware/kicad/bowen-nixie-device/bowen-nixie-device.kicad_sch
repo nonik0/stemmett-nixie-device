@@ -1850,6 +1850,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Transistor_BJT_AKL:MMBTA92"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBTA92"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/c16903b3c09153ba3d0d125053182a76/mmbta92.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PNP SOT-23 high voltage transistor, 300V, 500mA, 250mW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PNP MMBTA92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBTA92_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.778) (xy 1.778 2.286) (xy 1.27 1.27) (xy 2.286 1.778) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMBTA92_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:MMBTA42"
 			(pin_names
 				(offset 0)
@@ -1962,416 +2142,6 @@
 				)
 			)
 			(symbol "MMBTA42_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:MPSA92"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MPSA92"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP High Voltage Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MPSA92_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MPSA92_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:SS8050"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS8050"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-				(at 5.08 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-				(at 34.036 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SS8050 NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS8050_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS8050_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -7288,7 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 252.73) (xy 142.24 252.73)
+			(xy 132.08 252.73) (xy 142.24 252.73)
 		)
 		(stroke
 			(width 0)
@@ -14353,7 +14123,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "282ce913-f733-4c49-b517-a84bdc9d8bb9")
 		(property "Reference" "#PWR040"
 			(at 306.07 160.02 0)
@@ -14365,7 +14134,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 313.69 160.0199 90)
+			(at 313.182 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,9 +17005,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA92")
+		(lib_id "PCM_Transistor_BJT_AKL:MMBTA92")
 		(at 280.67 43.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17246,7 +17014,7 @@
 		(dnp no)
 		(uuid "6312bb7b-0565-4dc2-a970-52e7ad85fe93")
 		(property "Reference" "Q6"
-			(at 285.75 43.815 0)
+			(at 285.75 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17254,8 +17022,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA92"
-			(at 285.75 41.275 0)
+		(property "Value" "MMBTA92"
+			(at 285.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,28 +17031,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 285.75 41.275 0)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 285.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
+		(property "Datasheet" "https://www.tme.eu/Document/c16903b3c09153ba3d0d125053182a76/mmbta92.pdf"
 			(at 280.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
+		(property "Description" "PNP SOT-23 high voltage transistor, 300V, 500mA, 250mW, Alternate KiCAD Library"
 			(at 280.67 43.18 0)
 			(effects
 				(font
@@ -17650,7 +17415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8050")
+		(lib_id "Transistor_BJT:MMBTA42")
 		(at 273.05 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17668,7 +17433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS8050"
+		(property "Value" "MMBTA42"
 			(at 278.13 57.1499 0)
 			(effects
 				(font
@@ -17678,7 +17443,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 278.13 63.246 0)
+			(at 278.13 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17688,8 +17453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 278.13 60.706 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 273.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17698,8 +17463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 307.086 58.166 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 273.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17498,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7096ffa2-f466-4fab-a1ae-bc5a2624fdd8")
 		(property "Reference" "#PWR057"
 			(at 267.97 158.75 0)
@@ -17745,7 +17509,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 267.97 149.86 0)
+			(at 267.97 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +18704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8050")
+		(lib_id "Transistor_BJT:MMBTA42")
 		(at 316.23 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18958,7 +18722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS8050"
+		(property "Value" "MMBTA42"
 			(at 321.31 57.1499 0)
 			(effects
 				(font
@@ -18968,7 +18732,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 321.31 63.246 0)
+			(at 321.31 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,8 +18742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 321.31 60.706 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 316.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,8 +18752,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 350.266 58.166 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 316.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19407,7 +19171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8050")
+		(lib_id "Transistor_BJT:MMBTA42")
 		(at 229.87 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19425,7 +19189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS8050"
+		(property "Value" "MMBTA42"
 			(at 234.95 57.1499 0)
 			(effects
 				(font
@@ -19435,7 +19199,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 234.95 63.246 0)
+			(at 234.95 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19445,8 +19209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 234.95 60.706 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 229.87 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,8 +19219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 263.906 58.166 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 229.87 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21382,7 +21146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8050")
+		(lib_id "Transistor_BJT:MMBTA42")
 		(at 359.41 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21400,7 +21164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS8050"
+		(property "Value" "MMBTA42"
 			(at 364.49 57.1499 0)
 			(effects
 				(font
@@ -21410,7 +21174,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 364.49 63.246 0)
+			(at 364.49 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21420,8 +21184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 364.49 60.706 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 359.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,8 +21194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 393.446 58.166 0)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 359.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22525,9 +22289,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA92")
+		(lib_id "PCM_Transistor_BJT_AKL:MMBTA92")
 		(at 367.03 43.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22535,7 +22298,7 @@
 		(dnp no)
 		(uuid "c38bdd1f-fbde-4908-b13c-6d06eff2d0f5")
 		(property "Reference" "Q2"
-			(at 372.11 43.815 0)
+			(at 372.11 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22543,8 +22306,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA92"
-			(at 372.11 41.275 0)
+		(property "Value" "MMBTA92"
+			(at 372.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22552,28 +22315,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 372.11 41.275 0)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 372.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
+		(property "Datasheet" "https://www.tme.eu/Document/c16903b3c09153ba3d0d125053182a76/mmbta92.pdf"
 			(at 367.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
+		(property "Description" "PNP SOT-23 high voltage transistor, 300V, 500mA, 250mW, Alternate KiCAD Library"
 			(at 367.03 43.18 0)
 			(effects
 				(font
@@ -22872,9 +22632,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA92")
+		(lib_id "PCM_Transistor_BJT_AKL:MMBTA92")
 		(at 323.85 43.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22882,7 +22641,7 @@
 		(dnp no)
 		(uuid "c9cda741-d13d-4c94-af25-1c8e9d16fcf1")
 		(property "Reference" "Q4"
-			(at 328.93 43.815 0)
+			(at 328.93 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22890,8 +22649,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA92"
-			(at 328.93 41.275 0)
+		(property "Value" "MMBTA92"
+			(at 328.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22899,28 +22658,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 328.93 41.275 0)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 328.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
+		(property "Datasheet" "https://www.tme.eu/Document/c16903b3c09153ba3d0d125053182a76/mmbta92.pdf"
 			(at 323.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
+		(property "Description" "PNP SOT-23 high voltage transistor, 300V, 500mA, 250mW, Alternate KiCAD Library"
 			(at 323.85 43.18 0)
 			(effects
 				(font
@@ -24552,7 +24308,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e37db229-0f60-4c71-90f1-75c3dafd8e61")
 		(property "Reference" "#PWR03"
 			(at 237.49 205.74 0)
@@ -24564,7 +24319,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 237.49 196.85 0)
+			(at 237.49 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25079,7 +24834,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed27abc3-e1d2-4411-abcf-87d5c8b70c75")
 		(property "Reference" "#PWR041"
 			(at 316.23 170.18 0)
@@ -25091,7 +24845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 170.1799 90)
+			(at 313.436 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25139,9 +24893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MPSA92")
+		(lib_id "PCM_Transistor_BJT_AKL:MMBTA92")
 		(at 237.49 43.18 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25149,7 +24902,7 @@
 		(dnp no)
 		(uuid "ed6e0f77-9402-4098-babc-1506454827a7")
 		(property "Reference" "Q8"
-			(at 242.57 43.815 0)
+			(at 242.57 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25157,8 +24910,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MPSA92"
-			(at 242.57 41.275 0)
+		(property "Value" "MMBTA92"
+			(at 242.57 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25166,28 +24919,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 242.57 41.275 0)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 242.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
+		(property "Datasheet" "https://www.tme.eu/Document/c16903b3c09153ba3d0d125053182a76/mmbta92.pdf"
 			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
+		(property "Description" "PNP SOT-23 high voltage transistor, 300V, 500mA, 250mW, Alternate KiCAD Library"
 			(at 237.49 43.18 0)
 			(effects
 				(font
@@ -25350,7 +25100,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 130.81 252.73 0)
+		(at 132.08 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25359,7 +25109,7 @@
 		(fields_autoplaced yes)
 		(uuid "f19e37ba-bf58-4628-853c-2697eb981b96")
 		(property "Reference" "#PWR066"
-			(at 130.81 256.54 0)
+			(at 132.08 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25368,7 +25118,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 130.81 247.65 0)
+			(at 132.08 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25376,7 +25126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 252.73 0)
+			(at 132.08 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25385,7 +25135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 252.73 0)
+			(at 132.08 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25394,7 +25144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 252.73 0)
+			(at 132.08 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25758,10 +25508,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7928125-70a5-4716-b711-963b6e0bc812")
 		(property "Reference" "U11"
-			(at 249.555 196.215 0)
+			(at 248.92 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25769,7 +25518,7 @@
 			)
 		)
 		(property "Value" "NCH8200HV"
-			(at 249.555 198.755 0)
+			(at 248.92 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
