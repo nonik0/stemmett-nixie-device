@@ -6,4 +6,5 @@ firmware/include/secrets.h
 hardware/**/.history
 hardware/kicad/**/*-backups/**
 hardware/**/gerber/**
+hardware/**/*.lck
 hardware/**/*.zip

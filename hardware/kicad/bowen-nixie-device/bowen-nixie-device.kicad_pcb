@@ -1650,7 +1650,7 @@
 				(pins "10" "1" "2" "3" "4" "5" "6" "7" "8" "9" "11")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -15.970064 -12.745064)
@@ -10078,6 +10078,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10946,7 +10947,7 @@
 				(pins "10" "1" "2" "3" "4" "5" "6" "7" "8" "9" "11")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -15.970064 -12.745064)
@@ -11467,6 +11468,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13142,7 +13144,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.33 1.27)
@@ -15174,7 +15176,7 @@
 			(size 1.6 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U6-QH'-Pad9)")
+			(net "unconnected-(U2-QH'-Pad9)")
 			(pinfunction "QH'_9")
 			(pintype "output+no_connect")
 			(uuid "c77de556-cb65-4ed6-9645-beff3f73ba1d")
@@ -18445,6 +18447,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19546,6 +19549,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19827,7 +19831,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.33 -1.33)
@@ -20735,7 +20739,7 @@
 				(pins "10" "1" "2" "3" "4" "5" "6" "7" "8" "9" "11")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -15.970064 -12.745064)
@@ -22311,7 +22315,7 @@
 				(pins "10" "1" "2" "3" "4" "5" "6" "7" "8" "9" "11")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -15.970064 -12.745064)
@@ -24536,7 +24540,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 12.051 -3.991272)
@@ -25168,7 +25172,7 @@
 				(pins "1" "2" "4" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -8.965 -8.5)
@@ -29377,7 +29381,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.33 -1.33)
@@ -33527,7 +33531,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.33 1.27)
@@ -35112,6 +35116,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35700,6 +35705,18 @@
 					(xy 146.701812 87.129449) (xy 146.525253 87.145774)
 				)
 			)
+		)
+	)
+	(gr_text "WayWayWay"
+		(at 192.2 101 0)
+		(layer "B.SilkS")
+		(uuid "d86023f4-4714-47e9-8ade-c943989bd673")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

@@ -248,7 +248,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IN7-270D-socket.kicad_pro",
+    "filename": "IN7-0D-socket.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -294,13 +294,7 @@
     "bus_aliases": {},
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
-    "top_level_sheets": [
-      {
-        "filename": "IN7-270D-socket.kicad_sch",
-        "name": "IN7-270D-socket",
-        "uuid": "00000000-0000-0000-0000-000000000000"
-      }
-    ]
+    "top_level_sheets": []
   },
   "sheets": [],
   "text_variables": {},
