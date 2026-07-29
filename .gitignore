@@ -1,3 +1,9 @@
 firmware/.pio
 firmware/.vscode
 firmware/include/secrets.h
+
+# exclude some kicad stuff we don't need to track
+hardware/**/.history
+hardware/kicad/**/*-backups/**
+hardware/**/gerber/**
+hardware/**/*.zip
