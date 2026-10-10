@@ -2256,7 +2256,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "e"
+	(gr_text "0°"
 		(at 51.18 56 0)
 		(layer "F.SilkS")
 		(uuid "59ef61a1-cfb7-4462-b6f3-bdf2970c6c79")
