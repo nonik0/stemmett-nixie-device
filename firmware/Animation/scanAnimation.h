@@ -3,7 +3,7 @@
 #include "animationBase.h"
 #include "Helpers/fadeHelper.h"
 #include "Helpers/slotHelper.h"
-#include "tubes.h"
+
 
 class ScanAnimation : public Animation {
   private:

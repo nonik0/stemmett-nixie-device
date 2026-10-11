@@ -1,6 +1,6 @@
 #pragma once
 
-#include "tubes.h"
+#include "board.h"
 
 // TODO: move somewhere else?
 typedef enum { Left = 1, Right = -1 } Direction;

@@ -1,5 +1,4 @@
 #include "animationBase.h"
-#include "tubes.h"
 
 class RandomScanAnimation : public Animation {
  private:

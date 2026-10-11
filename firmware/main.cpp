@@ -1,8 +1,7 @@
 #include "Animation/animation.h"
 #include "nixieDriver.h"
 #include "rtc.h"
-#include "tubeConfiguration.h"
-#include "tubes.h"
+#include "board.h"
 #include "wifiServices.h"
 
 #define LIGHT_SENSOR_PIN 8
@@ -289,9 +288,10 @@ void setup()
   // task to update brightness and speed
   xTaskCreate(displaySettingsTask, "DisplaySettingsTask", 8192, NULL, 10, NULL);
 
-  refreshTimer = timerBegin(1000000); // 1Mhz (1,000,000 Hz)
-  timerAttachInterrupt(refreshTimer, &refreshTimerCallback);
-  timerAlarm(refreshTimer, REFRESH_RATE_US, true, 0);
+  refreshTimer = timerBegin(0, 80, true); // 80MHz / 80 = 1MHz tick rate
+  timerAttachInterrupt(refreshTimer, &refreshTimerCallback, true);
+  timerAlarmWrite(refreshTimer, REFRESH_RATE_US, true);
+  timerAlarmEnable(refreshTimer);
 
   // start first animation
   instantiateAllAnimations();

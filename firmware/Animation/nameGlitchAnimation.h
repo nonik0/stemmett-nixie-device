@@ -1,7 +1,6 @@
 #include <Arduino.h>
 
 #include "animationBase.h"
-#include "tubes.h"
 
 typedef struct {
   uint8_t cathode;
@@ -28,6 +27,20 @@ Glitch glitch[NUM_TUBES] = {
       {IN7_M, 0, 0, 0},
     {IN7_M, 0, 0, 0},
   {IN7_M, 0, 0, 0},
+};
+#elif defined(BEAU)
+Glitch glitch[NUM_TUBES] = {
+        {IN7_Kappa, 0, 0, 0},
+      {IN7_V, 0, 0, 0},
+    {IN7_M, 0, 0, 0},
+  {IN7_M, 0, 0, 0},
+};
+#elif defined(OWEN)
+Glitch glitch[NUM_TUBES] = {
+        {IN7_Kappa, 0, 0, 0},
+      {IN7_M, 0, 0, 0},
+    {IN7_M, 0, 0, 0},
+  {IN4_9, 0, 0, 0},
 };
 #endif
 

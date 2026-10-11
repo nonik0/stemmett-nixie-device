@@ -1,6 +1,5 @@
 #include "animationBase.h"
 #include "Helpers/slotHelper.h"
-#include "tubes.h"
 
 class SlotMachineAnimation : public Animation {
  private:
