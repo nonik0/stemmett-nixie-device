@@ -4,8 +4,6 @@
 #include "board.h"
 #include "wifiServices.h"
 
-#define LIGHT_SENSOR_PIN 8
-
 // animation variables
 Animation *animations[NUM_ANIMATIONS];
 Animation *curAnimation = nullptr;
@@ -166,7 +164,7 @@ void displaySettingsTask(void *pvParameters)
   while (1)
   {
 // optional light sensor
-#ifndef USE_DS3231_RTC
+#ifdef USE_LIGHT_SENSOR
     if (millis() - lightSensorLastReadMillis > LightSensorReadIntervalMs)
     {
       // read and shift in new reading
